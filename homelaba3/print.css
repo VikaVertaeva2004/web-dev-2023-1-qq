@@ -1,5 +1,0 @@
-/* Стили для печати */
-@media print {
-    nav, footer {
-      display: none;
-    }}
