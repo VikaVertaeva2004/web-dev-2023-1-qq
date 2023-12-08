@@ -1,0 +1,46 @@
+#game {
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+#board {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    font-size: 5rem;
+}
+
+.field {
+    float: left;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#btn {
+    width: 120px;
+    height: 20px;
+    margin-top: 10px;
+    border: 1.5px solid black;
+    background: none;
+    border-radius: 5px 0 5px 0;
+}
+
+.message {
+    border: 1px solid rgb(0, 255, 47);
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.messageGood {
+    background-color: rgb(255, 0, 140);
+    border-color: rgb(0, 66, 4);
+}
+
+.messageBad {
+    background-color: rgb(106, 193, 19);
+    border-color: rgb(36, 5, 5);
+}
