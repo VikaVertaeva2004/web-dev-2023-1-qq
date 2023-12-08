@@ -1,0 +1,38 @@
+body {
+    font-family: 'PT Sans' sans-serif;
+    font-size: 1.25rem;
+}
+
+.content-1 {
+    background-color: rgb(255, 204, 0);
+    border-radius: 15px;
+}
+
+.content-2 {
+    background-color: rgb(255, 204, 0);
+    border-radius: 15px;
+
+}
+
+.content-3 {
+    background-color: rgb(255, 204, 0);
+    border-radius: 15px;
+}
+
+.content-pr {
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 150px;
+}
+
+.container-pr {
+    background-color: rgb(0, 0, 0);
+}
+
+form {
+    background-color: rgb(0, 0, 0);
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+}
