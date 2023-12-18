@@ -1,99 +1,96 @@
-body{
-    font-family: 'Times New Roman', Times, serif;
-    margin:0;
-    padding: 0;
-    background-color: rgb(184, 255, 30);
-     font-family: 'Raleway'; 
-    
-  
+body {
+  font-family: 'Times New Roman', Times, serif; /* Устанавливаем шрифт для всего документа */
+  margin: 0;
+  padding: 0;
+  background-color: rgb(184, 255, 30); /* Устанавливаем фоновый цвет для body */
+  font-family: 'Raleway'; /* Дополнительный шрифт */
 }
-header.nav,main,footer{
-    padding:20px;
+
+header.nav, main, footer {
+  padding: 20px; /* Добавляем внутренний отступ для header, main и footer */
 }
-header{
-    background-color: #f9f9f9;
-  }
-  
-  h1 {
-    color: #ffaa00;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  /* nav ul li и nav ul li a являются селекторами CSS, которые используются для стилизации элементов внутри навигационного меню.
-nav ul li означает, что мы применяем стили к <li> элементам, которые находятся внутри <ul> элемента внутри <nav> элемента. Это позволяет нам выбирать
- конкретные элементы внутри навигационного меню для применения стилей. В данном случае, мы устанавливаем значение свойства display равным inline,
-  что говорит браузеру отображать элементы <li> в одну линию, рядом друг с другом, а не вертикально */
-  nav ul li {
-    display: inline; 
-    margin-right: 10px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: #333;
-  }
-  
-  nav ul li a:hover {
-    color: #ffaa00;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-  }
-  
-/* */
+
+header {
+  background-color: #f9f9f9; /* Устанавливаем фоновый цвет для header */
+}
+
+h1 {
+  color: #ffaa00; /* Устанавливаем цвет для заголовков h1 */
+}
+
+nav ul {
+  list-style-type: none; /* Убираем маркеры списка для элементов внутри навигационного меню */
+  padding: 0; /* Убираем внутренний отступ для ul */
+}
+
+/* 
+ Ниже следуют стили для элементов внутри навигационного меню.
+ nav ul li и nav ul li a являются селекторами CSS, которые используются для стилизации элементов внутри навигационного меню.
+ nav ul li означает, что мы применяем стили к <li> элементам, которые находятся внутри <ul> элемента внутри <nav> элемента. 
+ Это позволяет нам выбирать конкретные элементы внутри навигационного меню для применения стилей.
+ В данном случае, мы устанавливаем значение свойства display равным inline, что говорит браузеру отображать элементы <li>
+ в одну линию, рядом друг с другом, а не вертикально.
+*/
+nav ul li {
+  display: inline; 
+  margin-right: 10px; /* Добавляем отступ справа между элементами навигационного меню */
+}
+
+nav ul li a {
+  text-decoration: none; /* Убираем подчеркивание для ссылок внутри навигационного меню */
+  color: #333; /* Устанавливаем цвет для ссылок внутри навигационного меню */
+}
+
+nav ul li a:hover {
+  color: #ffaa00; /* Изменяем цвет ссылки при наведении на нее курсора */
+}
+
+footer {
+  background-color: #333; /* Устанавливаем фоновый цвет для footer */
+  color: #fff; /* Устанавливаем цвет текста внутри footer */
+  text-align: center; /* Выравниваем текст по центру внутри footer */
+}
+
 /* Стили для главной страницы */
 section h2 {
-    color: #ffaa00;
-  }
-  
-  /* Стили для страницы "Персонажи" */
-  .character-list {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .character-list li {
-    flex: 1 1 300px;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .character-list img {
-    width: 100%;
-    max-width: 200px;
-  }
-  
-  /* Стили для страницы "Галерея" */
-  .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .gallery img {
-    width: calc(33% - 10px);
-    margin-bottom: 20px;
-  }
-  
-  /* Стили для страницы "Контакты" */
-  .contact-list {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .contact-list li {
-    margin-bottom: 10px;
-  }
-  
-  /* Дополнительные стили для улучшения внешнего вида сайта */
-  section {
-    margin-bottom: 40px;
-  }
+  color: #ffaa00; /* Устанавливаем цвет для заголовков h2 внутри тега section */
+}
+
+/* Стили для страницы "Персонажи" */
+.character-list {
+  display: flex; /* Располагаем элементы списка горизонтально */
+  justify-content: space-between; /* Равномерно распределяем пространство между элементами списка */
+  list-style-type: none; /* Убираем маркеры списка для элементов списка */
+  padding: 0; /* Убираем внутренний отступ для списка */
+}
+
+.character-list li {
+  flex: 1 1 300px; /* Устанавливаем размер элементов списка с помощью flexbox */
+  text-align: center; /* Выравниваем текст по центру внутри элементов списка */
+  margin-bottom: 20px; /* Добавляем отступ снизу для элементов списка */
+}
+
+.character-list img {
+  width: 100%; /* Устанавливаем ширину изображений внутри списка равной 100% */
+  max-width: 200px; /* Устанавливаем максимальную ширину изображений внутри списка равной 200 пикселям */
+}
+
+/* Стили для страницы "Галерея" */
+.gallery {
+  display: flex; /* Располагаем элементы галереи горизонтально */
+  flex-wrap: wrap; /* Переносим элементы галереи на новую строку при необходимости */
+  justify-content: space-between; /* Равномерно распределяем пространство между элементами галереи */
+}
+
+.gallery img {
+  width: calc(33% - 10px); /* Устанавливаем ширину изображений галереи в соответствии с требованиями */
+  margin-bottom: 20px; /* Добавляем отступ снизу для элементов галереи */
+}
+
+/* Стили для страницы "Контакты" */
+.contact-list {
+  list-style-type: none; /* Убираем маркеры списка для элементов списка */
+  padding: 0; /* Убираем внутренний отступ для списка */
+}
+
+.contact-lis /* Опечатка. Нужно "contact-list li" */
