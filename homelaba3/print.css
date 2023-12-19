@@ -1,9 +1,4 @@
 /* Стили для печати 
-@media print {
-    nav, footer {
-      display: none;
-    }}*/
-
 
 @media print {
   /* Скрываем навигацию */
@@ -35,8 +30,7 @@
   
   /* Устанавливаем цвет фона */
   body {
-    background-color: #e7e4e4;
+    background-color: #ff1212;
   }
-}
 
-rgb(0, 0, 0)rgb(255, 0, 0)
+
