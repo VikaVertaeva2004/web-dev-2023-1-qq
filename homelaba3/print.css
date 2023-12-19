@@ -13,12 +13,12 @@
   
   /* Изменяем размер шрифта */
   body {
-    font-size: 12pt;
+    font-size: 20pt;
   }
   
   /* Устанавливаем межстрочное расстояние */
   p {
-    line-height: 1.5;
+    line-height: 1,5;
   }
   
  
@@ -30,7 +30,7 @@
   
   /* Устанавливаем цвет фона */
   body {
-    background-color: #ff1212;
+    background-color: #beb5b5;
   }
 
 

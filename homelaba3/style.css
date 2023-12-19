@@ -97,34 +97,4 @@ section h2 {
 /*.contact-list li /* Опечатка. Нужно "contact-list li" */
 
 
-/* Стили для печати  */
-
-@media print {
-  /* Скрываем навигацию */
-  nav {
-    display: none;
-  }
-  
-  /* Скрываем подвал */
-  footer {
-    display: none;
-  }
-  
-  /* Изменяем размер шрифта */
-  body {
-    font-size: 8pt;
-  }
-  
-  /* Устанавливаем межстрочное расстояние */
-  p {
-    line-height: 1.5;
-  }
-  
-
-  /* Устанавливаем цвет фона */
-  body {
-    background-color: #c0baba;
-  }}
-
-
    
