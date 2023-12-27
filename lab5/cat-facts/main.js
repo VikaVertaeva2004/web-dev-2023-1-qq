@@ -155,7 +155,7 @@ function autocompleteHandler(event) {
         autocompleteDropdown.style.top = rect.bottom + 'px';
         autocompleteDropdown.style.left = rect.left + 'px';
 
-        fetch(`http://cat-facts-api.std-900.ist.mospolytech.ru/autocomplete?q=${searchQuery}`)
+        fetch(`https://cat-facts-api.std-900.ist.mospolytech.ru/autocomplete?q=${searchQuery}`)
             .then(response => response.json())
             .then(data => {
                 autocompleteDropdown.innerHTML = "";
